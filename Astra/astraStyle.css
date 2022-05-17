@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+}
+
+body{
+  /* The image used */
+  color: black;
+  background-image: url("galaxy.jpg");
+  background-size: 1920px 1080px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#astraText{
+  background-color:white;
+}
+#Dev-credits {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    background-color: white;
+}
+
+#HotLists{
+  background-color: white;
+}
