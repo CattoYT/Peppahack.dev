@@ -3,7 +3,4 @@ function download(fileUrl, fileName) {
     a.href = fileUrl;
     a.setAttribute("download", fileName);
     a.click();
-    console.log("Shit just got downloaded");
   }
-  
-  
