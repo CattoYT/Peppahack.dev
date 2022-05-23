@@ -9,6 +9,16 @@
  <body>
    <script src="astraScript.js"></script>
 
+   <!-- Download script -->
+   <script>
+   function download(fileUrl, fileName) {
+    var a = document.createElement("a");
+    a.href = fileUrl;
+    a.setAttribute("download", fileName);
+    a.click();
+  }</script>
+
+
 <a href ="../index.html" ><button type="button">Go back to PeppaHack.dev</button></a>
 <br>
 <div id="astraText">
@@ -17,7 +27,7 @@
 </div>
  </body>
 </html>
-
+<center>
 <div id="HotLists">
   <div id="combatList">
     <div id="combatdivheader"><center>Modules:</center></div>
@@ -61,9 +71,13 @@
     </ul>
     </div>
 </div>
+</center>
 
-
-
+<div id="astraDownload">
+  <center>
+    <a href ="../testDownloads/Astra.txt" ><button type="button"></button></a>
+  </center>
+</div>
 
 <div id="Dev-credits">
   <center><mark>　Made with ❤️ by SigmaClientWasTaken and Catto　</center></mark>
