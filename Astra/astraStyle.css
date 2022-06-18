@@ -3,12 +3,11 @@ body, html {
 }
 
 body{
-  /* The image used */
+
   color: black;
   background-image: url("galaxy.jpg");
   background-size: 1920px 1080px;
-  
-  /* Create the parallax scrolling effect */
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,8 +54,9 @@ mark {
   padding: 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 4px 80px;
+  margin: 8px 43%;
   cursor: pointer;
+  width: 200px;
+  border-radius: 25px;
 }
