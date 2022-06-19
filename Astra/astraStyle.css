@@ -55,7 +55,7 @@ mark {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 8px 43%;
+  margin: 8px 500%;
   cursor: pointer;
   width: 200px;
   border-radius: 25px;
@@ -71,4 +71,12 @@ mark {
   margin: 0px 90%;
   width: 200px;
   border-radius: 10px;
+}
+
+.hidden>div {
+	display:none;
+}
+
+.visible>div {
+	display:block;
 }
