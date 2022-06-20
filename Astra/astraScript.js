@@ -24,8 +24,9 @@ function login() {
     //this took way too long i hate it so much faihrwuyahruwyarhtyu7ahtuyhawuyhtuywahtuaywhta subscribe to cattoyt and anticheat verbose i cant even this is a comment that i will probably forget to delete
     
    if(loginStatus == true) {
-    document.getElementById("loggedInSection").style.display = "block";
     //technically this works but really weird
-    document.getElementById("astraDownload").style.margin = "8px 43%";
+    document.getElementById("astraDownload").style.display = "block";
+    username == null
+    password == null
    }
 }

@@ -20,9 +20,16 @@ td {
 }
 
 body {
-  background-color: white
   height: 100%;
   background-image: linear-gradient(Magenta, Red);
   background-attachment: fixed;
 }
 
+#ClientInfo {
+  outline: 5px solid blue;
+  font-size: 19px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  background-color: magenta;
+}
