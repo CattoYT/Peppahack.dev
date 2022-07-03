@@ -1,6 +1,6 @@
 body {
     background-color: white
     height: 100%;
-    background-image: linear-gradient(Magenta, Red);
+    background-image: linear-gradient(Magenta, cyan);
     background-attachment: fixed;
   }

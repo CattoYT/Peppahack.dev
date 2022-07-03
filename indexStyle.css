@@ -21,7 +21,7 @@ td {
 
 body {
   height: 100%;
-  background-image: linear-gradient(Magenta, Red);
+  background-image: linear-gradient(magenta, cyan);
   background-attachment: fixed;
 }
 
@@ -31,5 +31,5 @@ body {
   text-align: center;
   width: 80%;
   margin: auto;
-  background-color: magenta;
+  background-color: lightpink;
 }
