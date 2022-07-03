@@ -14,12 +14,12 @@ body{
 }
 
 #astraText{
-  outline: 5px solid blue;
+  outline: 5px solid magenta;
   font-size: 19px;
   text-align: center;
   width: 80%;
   margin: auto;
-  background-color: magenta;
+  background-color: white;
 }
 #Dev-credits {
     bottom: 0;
@@ -35,11 +35,11 @@ mark {
 
 #HotLists {
   position: absolute;
-  z-index: 9;
+  z-index: 12;
   background-color: #f1f1f1;
   border: 1px solid #d3d3d3;
   text-align: left;
-
+  margin: 10px ;
 }
 
 #combatdivheader {
@@ -59,7 +59,7 @@ mark {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 8px 43%;
+  margin: 14px 43%;
   cursor: pointer;
   width: 200px;
   border-radius: 25px;
@@ -73,7 +73,7 @@ mark {
   padding: 20px;
   text-align: center;
   font-size: 16px;
-  margin: 0px 88%;
+  margin: 10px 85%;
   width: 200px;
   border-radius: 10px;
 }
